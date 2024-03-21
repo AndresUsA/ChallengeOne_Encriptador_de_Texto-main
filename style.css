@@ -9,9 +9,9 @@
 }
 
 body{
-    background-image: url(imagenes/movil.jpeg);
-    background-size: contain;
-    background-repeat: repeat;
+    background-image: url(imagenes/fondo2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
     background-attachment: fixed;
     
 }
@@ -176,10 +176,3 @@ a:visited{
     margin: 0;
 }
 
-@media only screen and (max-width:550px) {
-    body{
-        background-image: url(imagenes/movil.jpeg);
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-}
